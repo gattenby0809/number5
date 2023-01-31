@@ -1,0 +1,27 @@
+{
+  "name": "masswithip4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "massgov.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/Ahmedmansour09/Ahmed.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ahmedmansour09/Ahmed/issues"
+  },
+  "homepage": "https://github.com/Ahmedmansour09/Ahmed#readme",
+  "dependencies": {
+    "isbot": "^3.6.5"
+  },
+  "devDependencies": {
+    "webpack": "^5.1.3",
+    "webpack-cli": "^4.1.0"
+  }
+}
